@@ -28,6 +28,11 @@ li {
     content: "*";
 }
 
+.ulstyle:nth-last-child(2) {
+    background-color: lightgray;
+    padding: 6px;
+}
+
 .gridcontainer {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
